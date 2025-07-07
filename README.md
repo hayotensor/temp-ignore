@@ -18,7 +18,7 @@ On each epoch, the chosen validator (chosen by Hypertensor blockchain nodes) upl
 
 Commit-reveal is used to ensure no nodes are able to copy scores from each other. Due to randomized tensors being used, scores can differ from epoch to epoch slightly, making copying the previous epochs data also a challenge.
  
-![alt text](https://github.com/hayotensor/temp-ignore/commit-reveal-inference-subnet.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/hayotensor/temp-ignore/refs/heads/main/commit-reveal-inference-subnet.png "Subnet commit-reveal flow")
 
 ##### Hoster
 
