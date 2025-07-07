@@ -2,8 +2,6 @@
 
 This Hypertensor container is an AI application built for inference in a decentralized environment. This is the OPEN OpenAI.
 
-![img](https://i.imgur.com/GPxolxb.gif)
-
 ##### Roles
 - Hoster: Hosts the model, performs inference for clients, validates other hosters and validators.
 - Validator: Validates hoster nodes, and other validators.
