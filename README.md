@@ -17,6 +17,8 @@ Both hosters and validators use a commit-reveal schema for consensus. Consensus 
 On each epoch, the chosen validator (chosen by Hypertensor blockchain nodes) uploads their scores from the previous epoch to the blockchain and submits a randomized tensor (prompt) to the DHT. If no tensor is submitted by a certain point in the epoch, any node can take over this task.
 
 Commit-reveal is used to ensure no nodes are able to copy scores from each other. Due to randomized tensors being used, scores can differ from epoch to epoch slightly, making copying the previous epochs data also a challenge.
+ 
+![alt text](https://github.com/hayotensor/temp-ignore/commit-reveal-inference-subnet.png "Logo Title Text 1")
 
 ##### Hoster
 
