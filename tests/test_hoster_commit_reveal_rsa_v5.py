@@ -13,7 +13,7 @@ import torch
 
 from mesh import DHT, get_dht_time
 from mesh.dht.crypto import RSASignatureValidator
-from mesh.subnet.roles.hoster_v5 import Hoster, get_consensus_key, get_hoster_commit_key
+from mesh.subnet.roles.hoster import Hoster, get_consensus_key, get_hoster_commit_key
 from mesh.subnet.utils.consensus import get_consensus_subkey_rsa
 from mesh.subnet.utils.dht import _get_data, _store_data, store_data
 from mesh.subnet.utils.hoster import get_hoster_reveal_key

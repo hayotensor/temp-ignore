@@ -10,12 +10,12 @@ import mesh
 from mesh import DHT, get_dht_time
 from mesh.dht.validation import HypertensorPredicateValidator, RecordValidatorBase
 from mesh.proto.runtime_pb2 import CompressionType  # for de/serializing protos Tensors
-from mesh.subnet.consensus_v5 import Consensus
+from mesh.subnet.consensus import Consensus
 from mesh.subnet.data_structures import QuantType, ServerClass, ServerInfo, ServerState
-from mesh.subnet.protocols.inference_protocol_v5 import InferenceProtocol
+from mesh.subnet.protocols.inference_protocol import InferenceProtocol
 from mesh.subnet.reachability import ReachabilityProtocol, check_direct_reachability
-from mesh.subnet.roles.hoster_v5 import Hoster
-from mesh.subnet.roles.validator_v5 import Validator
+from mesh.subnet.roles.hoster import Hoster
+from mesh.subnet.roles.validator import Validator
 from mesh.subnet.utils.consensus import hypertensor_consensus_predicate
 from mesh.subnet.utils.dht import declare_node, get_node_infos
 from mesh.subnet.utils.ping import PingAggregator

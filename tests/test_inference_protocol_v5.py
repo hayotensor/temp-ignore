@@ -10,7 +10,7 @@ from transformers import AutoTokenizer
 
 from mesh import get_dht_time
 from mesh.dht.crypto import RSASignatureValidator
-from mesh.subnet.protocols.inference_protocol_v5 import InferenceProtocol
+from mesh.subnet.protocols.inference_protocol import InferenceProtocol
 from mesh.subnet.utils.consensus import get_consensus_key, get_consensus_subkey_rsa
 from mesh.subnet.utils.key import (
     generate_rsa_private_key_file,

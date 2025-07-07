@@ -6,7 +6,7 @@ import requests
 from async_timeout import timeout
 
 import mesh
-from mesh.subnet.protocols.inference_protocol_v5 import InferenceProtocol
+from mesh.subnet.protocols.inference_protocol import InferenceProtocol
 
 info_cache = mesh.TimedStorage()
 
